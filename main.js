@@ -58,12 +58,67 @@ for(let i =0; i< numberOfPeople; i++){
 
 const personArray = ["first person ", "second person", "third person"];
 const genderArray = ["male", "female", "female"];
+const numberOfUser = personArray.length;
 
-for(let i=0; i<genderArray.length; i++){
+
+for(let i=0; i<numberOfUser; i++){
     if(genderArray[i] == "female"){
         console.log(`${personArray[i]} is ${genderArray[i]}`);
         //console.log(personArray[i]);
     }
     //let obj = {name:personArray[i], sex:genderArray[i]};
     //console.log(personArray[i]); ->useless line of code 
+}
+
+//object
+
+const user1 = {
+    firstName: "Good night",
+    gender: "male"  
+} 
+
+console.log(user1["firstName"]);
+
+
+
+//onject
+
+const users =[1,2,3];
+const users2 = ["ramesh","suresh"]
+
+// function showUsers(users) {
+//         // Should display a list of users when given a valid array of user objects
+//         it('should display a list of users when given a valid array of user objects', () => {
+//             const users = [
+//                 { name: 'John', age: 25 },
+//                 { name: 'Jane', age: 30 },
+//                 { name: 'Bob', age: 35 }
+//             ];
+        
+//             const consoleSpy = jest.spyOn(console, 'log');
+        
+//             showUsers(users);
+        
+//             expect(consoleSpy).toHaveBeenCalledWith(users);
+        
+//             consoleSpy.mockRestore();
+//         });
+// }
+
+
+const allUsers = [{
+    firstName: "hello",
+    gender: "male"
+},{
+    firstName:"world",
+    gender: "female"
+},{
+    firstName:"priya",
+    gender: "female"
+}];
+
+for (let i= 0; i<allUsers.length; i++){
+    if(allUsers[i]["gender"] == "female"){
+        console.log(allUsers[i]["firstName"])
+    }
 }
