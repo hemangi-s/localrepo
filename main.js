@@ -27,8 +27,28 @@ else{
 
 let ans = 0;
 
-for(let i=0; i<=100; i=i+1){
+for(let i=0; i<=300; i=i+1){
    ans = ans+i;
 }
 
 console.log(ans);
+
+
+//array
+
+// const ages = [11,12,13,14,15];
+
+// for(let i =0; i< ages.length; i++){
+//     if(ages[i]%2 != 0){
+//         console.log(ages[i]);
+//     }
+// }
+
+const ages = [11,12,13,14,15];
+const numberOfPeople = ages.length;
+
+for(let i =0; i< numberOfPeople; i++){
+    if(ages[i]%2 != 0){
+        console.log(ages[i]);
+    }
+}
