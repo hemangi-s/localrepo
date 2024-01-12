@@ -52,3 +52,18 @@ for(let i =0; i< numberOfPeople; i++){
         console.log(ages[i]);
     }
 }
+
+
+//objects
+
+const personArray = ["first person ", "second person", "third person"];
+const genderArray = ["male", "female", "female"];
+
+for(let i=0; i<genderArray.length; i++){
+    if(genderArray[i] == "female"){
+        console.log(`${personArray[i]} is ${genderArray[i]}`);
+        //console.log(personArray[i]);
+    }
+    //let obj = {name:personArray[i], sex:genderArray[i]};
+    //console.log(personArray[i]); ->useless line of code 
+}
