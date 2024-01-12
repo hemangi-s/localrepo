@@ -25,10 +25,10 @@ else{
     console.log("night");
 }
 
+let ans = 0;
 
-
-for(let i=0; i<10; i++){
-    i;
+for(let i=0; i<=100; i=i+1){
+   ans = ans+i;
 }
 
-console.log(i);
+console.log(ans);
