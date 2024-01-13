@@ -1,11 +1,9 @@
 console.log("hello");
 
 var a = 1;
-
 console.log(a);
 
 const b = 2;
-
 console.log(b);
 
 
@@ -122,3 +120,14 @@ for (let i= 0; i<allUsers.length; i++){
         console.log(allUsers[i]["firstName"])
     }
 }
+
+
+//functions
+
+function sum(a,b){
+    return a*b;
+}
+
+const value =  sum(3,4)
+console.log(value);
+
