@@ -1,11 +1,11 @@
-//calulateArithmetic
-function calulateArithmetic(a, b, type){
+//calculateArithmetic
+function calculateArithmetic(a, b, arithmeticFinalFunction){
     if(type == "sum"){
-        const value = sum(a,b)
+        const value = sum(a, b)
         return value;
     }
     if(type == "minus"){
-        const value = sub(a,b)
+        const value = sub(a, b)
         return value;
     }
 }
@@ -18,4 +18,6 @@ function minus(a,b){
     return a-b;
 }
 
-const value = calulateArithmetic(1, 2, "minus");
+const value = calculateArithmetic(1, 2, "minus");
+
+// code has error
