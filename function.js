@@ -18,7 +18,7 @@
 
 
 
-//METHOD 2
+//METHOD 2 of function call
 
 // function sum(num1, num2) {
 //     let result = num1+num2;
