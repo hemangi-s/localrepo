@@ -36,7 +36,7 @@
 // const ans = sum(5,6);
 
 
-//METHOD 3
+//METHOD 3 of function call
 
 function sum(num1, num2, fnToCall) {
     let result = num1+num2;
